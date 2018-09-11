@@ -1,0 +1,48 @@
+.report .intro-report .ui.cards .image {
+  color: #3e7e92;
+  font-size: 2.5em;
+}
+.report .intro-report .testimonial {
+  margin-top: 2em;
+  text-align: left;
+}
+.report .intro-report .testimonial .testimonial-avatar, .report .intro-report .testimonial .testimonial-body {
+  min-height: 150px;
+  vertical-align: top;
+}
+.report .intro-report .testimonial .testimonial-avatar {
+  display: inline-block;
+  padding-right: 10px;
+  width: 100px;
+}
+.report .intro-report .testimonial .testimonial-avatar img {
+  width: 100%;
+}
+.report .intro-report .testimonial .testimonial-body {
+  display: inline-block;
+  width: calc(100% - 111px);
+}
+.report .intro-report .testimonial .testimonial-body p {
+  margin-top: 0px;
+}
+.report .intro-report .testimonial .testimonial-body p.testimonial-quote {
+  color: #777;
+  font-size: 1.2em;
+  font-style: italic;
+}
+#intro-report-intermission h2 {
+  text-align: center;
+}
+#intro-report-intermission .more-than-questionnaire .grid {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+#intro-report-intermission .more-than-questionnaire .column {
+  text-align: center !important;
+}
+#intro-report-intermission .more-than-questionnaire .column img {
+  max-width: 70px;
+}
+#intro-report-intermission p {
+  text-align: center;
+}

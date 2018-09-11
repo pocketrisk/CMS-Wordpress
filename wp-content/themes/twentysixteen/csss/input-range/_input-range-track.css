@@ -1,0 +1,22 @@
+.input-range__track {
+  background: #eee !default;
+  border-radius: 0.3rem !default;
+  cursor: pointer;
+  display: block;
+  height: 0.3rem !default;
+  position: relative;
+  transition: left 0.3s ease-out, width 0.3s ease-out !default;
+}
+.input-range--disabled .input-range__track {
+  background: #eee !default;
+}
+.input-range__track--background {
+  left: 0;
+  margin-top: -0.15rem !default;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.input-range__track--active {
+  background: #444 !default;
+}

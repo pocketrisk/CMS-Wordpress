@@ -1,0 +1,17 @@
+.embedded-clients .ui.form .field input.string, .embedded-clients .ui.form .field select {
+  max-width: 296px;
+}
+.embedded-clients .ui.form .field select {
+  margin-bottom: 0.25em;
+}
+.embedded-clients .ui.form .grouped.fields .field {
+  display: flex;
+}
+.embedded-clients .ui.form .grouped.fields .field input[type=radio] {
+  min-width: 12px;
+  margin-top: 0.25em;
+}
+.embedded-clients .ui.form .grouped.fields .field label {
+  font-weight: normal;
+  flex: 1;
+}
