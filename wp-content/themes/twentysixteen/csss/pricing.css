@@ -1,0 +1,95 @@
+.help{height: 13px !important;}
+.static#pricing .currency-container, .account#pricing .currency-container, .static#upgrade-cancel .currency-container, .account#upgrade-cancel .currency-container {
+  position: relative;
+  margin-top: -50px;
+  height: 40px;
+}
+.static#pricing .currency-container .ui.dropdown, .account#pricing .currency-container .ui.dropdown, .static#upgrade-cancel .currency-container .ui.dropdown, .account#upgrade-cancel .currency-container .ui.dropdown {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.static#pricing .masthead, .account#pricing .masthead, .static#upgrade-cancel .masthead, .account#upgrade-cancel .masthead {
+  background-color: white;
+}
+.static#pricing .masthead h1.ui.header, .account#pricing .masthead h1.ui.header, .static#upgrade-cancel .masthead h1.ui.header, .account#upgrade-cancel .masthead h1.ui.header {
+  color: #444;
+}
+.static#pricing .masthead h2, .account#pricing .masthead h2, .static#upgrade-cancel .masthead h2, .account#upgrade-cancel .masthead h2 {
+  color: #de6a10;
+}
+.static#pricing .pricing-pills-container, .account#pricing .pricing-pills-container, .static#upgrade-cancel .pricing-pills-container, .account#upgrade-cancel .pricing-pills-container {
+  margin-top: 1.5em;
+}
+.static#pricing .pricing-pills-container .menu .item, .account#pricing .pricing-pills-container .menu .item, .static#upgrade-cancel .pricing-pills-container .menu .item, .account#upgrade-cancel .pricing-pills-container .menu .item {
+  border: 1px solid #3e7e92;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.85em;
+  min-width: 200px;
+  padding: 0.3em;
+}
+.static#pricing .pricing-pills-container .menu .item.active, .account#pricing .pricing-pills-container .menu .item.active, .static#upgrade-cancel .pricing-pills-container .menu .item.active, .account#upgrade-cancel .pricing-pills-container .menu .item.active {
+  background-color: #3e7e92;
+  color: white;
+}
+.static#pricing .pricing-pills-container .menu .item:first-child, .account#pricing .pricing-pills-container .menu .item:first-child, .static#upgrade-cancel .pricing-pills-container .menu .item:first-child, .account#upgrade-cancel .pricing-pills-container .menu .item:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.static#pricing .pricing-pills-container .menu .item:last-child, .account#pricing .pricing-pills-container .menu .item:last-child, .static#upgrade-cancel .pricing-pills-container .menu .item:last-child, .account#upgrade-cancel .pricing-pills-container .menu .item:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.static#pricing .pricing-column-wrapper, .account#pricing .pricing-column-wrapper, .static#upgrade-cancel .pricing-column-wrapper, .account#upgrade-cancel .pricing-column-wrapper {
+  background-color: white;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 3px;
+  font-size: 1.1em;
+  height: 100%;
+  padding: 20px 10px;
+  text-align: center;
+}
+.static#pricing .pricing-column-wrapper p.price .currency, .account#pricing .pricing-column-wrapper p.price .currency, .static#upgrade-cancel .pricing-column-wrapper p.price .currency, .account#upgrade-cancel .pricing-column-wrapper p.price .currency {
+  color: #777;
+  vertical-align: top;
+}
+.static#pricing .pricing-column-wrapper p.price .number, .account#pricing .pricing-column-wrapper p.price .number, .static#upgrade-cancel .pricing-column-wrapper p.price .number, .account#upgrade-cancel .pricing-column-wrapper p.price .number {
+  font-size: 2em;
+}
+.static#pricing .pricing-column-wrapper p.price .vat, .account#pricing .pricing-column-wrapper p.price .vat, .static#upgrade-cancel .pricing-column-wrapper p.price .vat, .account#upgrade-cancel .pricing-column-wrapper p.price .vat {
+  color: #777;
+  vertical-align: top;
+}
+.static#pricing .pricing-column-wrapper p.price .description, .account#pricing .pricing-column-wrapper p.price .description, .static#upgrade-cancel .pricing-column-wrapper p.price .description, .account#upgrade-cancel .pricing-column-wrapper p.price .description {
+  color: #777;
+}
+.static#pricing .pricing-column-wrapper .button, .account#pricing .pricing-column-wrapper .button, .static#upgrade-cancel .pricing-column-wrapper .button, .account#upgrade-cancel .pricing-column-wrapper .button {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 1em;
+}
+.static#pricing .pricing-column-wrapper p.plan-description, .account#pricing .pricing-column-wrapper p.plan-description, .static#upgrade-cancel .pricing-column-wrapper p.plan-description, .account#upgrade-cancel .pricing-column-wrapper p.plan-description {
+  color: #aaa;
+  margin-top: 1em;
+}
+.static#pricing .pricing-column-wrapper ul.ui.list, .account#pricing .pricing-column-wrapper ul.ui.list, .static#upgrade-cancel .pricing-column-wrapper ul.ui.list, .account#upgrade-cancel .pricing-column-wrapper ul.ui.list {
+  list-style: none;
+}
+.static#pricing .pricing-column-wrapper ul.ui.list li, .account#pricing .pricing-column-wrapper ul.ui.list li, .static#upgrade-cancel .pricing-column-wrapper ul.ui.list li, .account#upgrade-cancel .pricing-column-wrapper ul.ui.list li {
+  color: #777;
+  text-align: center;
+}
+.static#pricing .pricing-column-wrapper ul.ui.list li::before, .account#pricing .pricing-column-wrapper ul.ui.list li::before, .static#upgrade-cancel .pricing-column-wrapper ul.ui.list li::before, .account#upgrade-cancel .pricing-column-wrapper ul.ui.list li::before {
+  display: none;
+}
+.static#pricing .no-matching-plan h6, .account#pricing .no-matching-plan h6, .static#upgrade-cancel .no-matching-plan h6, .account#upgrade-cancel .no-matching-plan h6 {
+  color: #3e7e92;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.static#pricing .no-matching-plan p, .account#pricing .no-matching-plan p, .static#upgrade-cancel .no-matching-plan p, .account#upgrade-cancel .no-matching-plan p {
+  font-size: 1.1em;
+  text-align: justify;
+}

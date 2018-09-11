@@ -1,0 +1,325 @@
+.static {
+  color: #444;
+  overflow:hidden;
+}
+.static .ui.segment .testimonial {
+  margin-top: 2em;
+  text-align: left;
+}
+.static .ui.segment .testimonial .testimonial-avatar, .static .ui.segment .testimonial .testimonial-body {
+  vertical-align: top;
+}
+.static .ui.segment .testimonial .testimonial-avatar {
+  display: inline-block;
+  padding-right: 10px;
+  width: 100px;
+}
+.static .ui.segment .testimonial .testimonial-avatar img {
+  width: 100%;
+}
+.static .ui.segment .testimonial .testimonial-body {
+  display: inline-block;
+  width: calc(100% - 111px);
+}
+.static .ui.segment .testimonial .testimonial-body p {
+  margin-top: 0px;
+}
+.static .ui.segment .testimonial .testimonial-body p.testimonial-quote {
+  font-size: 1.2em;
+  font-style: italic;
+}
+.class_home .ui.segment.masthead{
+  min-height: 100px;
+}
+.static .ui.segment.masthead {
+  background-color: #468da4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: -1rem;
+  min-height: 100px;
+  padding: 4em 0;
+}
+.blue_div{
+  min-height: 100px !important;
+}
+.static .ui.segment.masthead .testimonial .testimonial-body p.testimonial-quote {
+  color: white;
+}
+.static .ui.segment.masthead .testimonial .testimonial-body p.testimonial-desc {
+  color: white;
+}
+.static .ui.segment.masthead .ui.flash.container {
+  margin: -2em 0 2em;
+}
+.static .ui.segment.masthead .ui.flash.container .message {
+  background-color: transparent;
+  color: white;
+}
+.static .ui.segment.masthead h1.ui.header, .static .ui.segment.masthead .h1.ui.header {
+  color: white;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-size: 3em;
+  font-weight: normal;
+}
+.static .ui.segment.masthead h2, .static .ui.segment.masthead .h2 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 1.5em 0em 0em 0em !important;
+}
+.static .ui.segment.masthead h2 a, .static .ui.segment.masthead .h2 a {
+  color: white;
+  text-decoration: underline;
+}
+.static .ui.segment.masthead h1 span.img-underline, .static .ui.segment.masthead h2 span.img-underline, .static .ui.segment.masthead .h1 span.img-underline, .static .ui.segment.masthead .h2 span.img-underline, .static .ui.segment.masthead h1 span.img-underline-large, .static .ui.segment.masthead h2 span.img-underline-large, .static .ui.segment.masthead .h1 span.img-underline-large, .static .ui.segment.masthead .h2 span.img-underline-large {
+  position: relative;
+}
+.static .ui.segment.masthead h1 span.img-underline:after, .static .ui.segment.masthead h2 span.img-underline:after, .static .ui.segment.masthead .h1 span.img-underline:after, .static .ui.segment.masthead .h2 span.img-underline:after, .static .ui.segment.masthead h1 span.img-underline-large:after, .static .ui.segment.masthead h2 span.img-underline-large:after, .static .ui.segment.masthead .h1 span.img-underline-large:after, .static .ui.segment.masthead .h2 span.img-underline-large:after {
+  content: asset-url('underline.png');
+  position: absolute;
+  left: 0px;
+  top: 0.7rem;
+}
+.static .ui.segment.masthead h1 span.img-underline-large:after, .static .ui.segment.masthead h2 span.img-underline-large:after, .static .ui.segment.masthead .h1 span.img-underline-large:after, .static .ui.segment.masthead .h2 span.img-underline-large:after {
+  content: asset-url('underline-large.png');
+}
+.static .ui.segment {
+  padding: 5em 0;
+}
+.static .ui.segment .ui.text.container {
+  max-width: 933px !important;
+}
+.static .ui.segment.alternative {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+}
+.static .ui.segment h4 {
+  text-align: center;
+  font-size: 1.5em;
+}
+.static#about .masthead {
+  background-image: asset-url('about-background_05.png');
+}
+.static#about .masthead h1.ui.header {
+  font-size: 2.6em;
+}
+.static#about .segment .grid .column h5 {
+  color: #3e7e92;
+  font-size: 1.3em;
+}
+.static#about .segment.leadership-team .grid .column img {
+  width: 100%;
+}
+.static#about .segment.our-story p, .static#about .segment.leadership-team p {
+  text-align: justify;
+}
+@media only screen and (max-width: 700px) {
+  .static#about .ui.segment.facts .ui.column .column {
+    text-align: center !important;
+  }
+}
+.static#compliance .masthead p.world-map {
+  margin-top: 70px;
+}
+.static#compliance .country {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.static#compliance .country img {
+  width: 79px;
+}
+.static#compliance .country span {
+  padding-left: 2em;
+  font-size: 1.5em;
+}
+.static#compliance .description .quote {
+  color: #777;
+  font-style: italic;
+}
+.static#compliance .description p {
+  text-align: justify;
+}
+.static#compliance .segment.tommie {
+  padding: 3em 0;
+}
+.static#compliance .segment.tommie .testimonial {
+  margin: 0 auto;
+  text-align: left;
+  width: 720px;
+}
+.static#compliance .segment.tommie .testimonial .testimonial-avatar, .static#compliance .segment.tommie .testimonial .testimonial-body {
+  vertical-align: top;
+}
+.static#compliance .segment.tommie .testimonial .testimonial-avatar {
+  display: inline-block;
+  padding-right: 10px;
+  width: 100px;
+}
+.static#compliance .segment.tommie .testimonial .testimonial-avatar img {
+  width: 100%;
+}
+.static#compliance .segment.tommie .testimonial .testimonial-body {
+  display: inline-block;
+  width: calc(100% - 111px);
+}
+.static#compliance .segment.tommie .testimonial .testimonial-body p {
+  margin-top: 0px;
+}
+.static#compliance .segment.tommie .testimonial .testimonial-body p.testimonial-quote {
+  color: #777;
+  font-size: 1.2em;
+  font-style: italic;
+}
+.static#security .masthead p.padlock {
+  margin-top: 70px;
+}
+.static#security .masthead p.padlock img {
+  height: 310px;
+}
+.static#security .banks .grid {
+  margin-top: 3em;
+}
+.static#security .banks .grid .column img {
+  max-width: 200px;
+}
+.static#security .banks .grid .column.univest img {
+  margin-top: 25px;
+}
+.static#security .descriptions h4 {
+  text-align: left;
+}
+.static#security .descriptions p {
+  text-align: justify;
+}
+.static#launch-offer .ui.segment.masthead .ui.list {
+  color: white;
+  margin: 3rem 0;
+}
+.static#launch-offer .ui.segment.masthead .ui.list li:before {
+  color: white;
+}
+.static#launch-offer .ui.segment.masthead div.info {
+  margin-bottom: 3rem;
+}
+.static#launch-offer .ui.segment.masthead div.info p {
+  color: white;
+}
+.static#launch-offer .ui.segment.masthead div.info p.trial-details {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+.static#launch-offer .ui.segment.masthead div.info p.trial-details .strike {
+  padding: 0 0.3em;
+  position: relative;
+}
+.static#launch-offer .ui.segment.masthead div.info p.trial-details .strike:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0.1em;
+  right: 0.1em;
+  height: 2px;
+  /* ADJUST HEIGHT TO ADD WEIGHT */
+  background: white;
+}
+.static#launch-offer .ui.segment.client-dashboard h1.header {
+  font-size: 3em;
+}
+.static#how-it-works .ui.segment, .static#launch-offer .ui.segment {
+  text-align: center;
+}
+.static#how-it-works .ui.segment h4, .static#launch-offer .ui.segment h4 {
+  font-weight: normal;
+}
+.static#how-it-works .video-overview .pocketrisk-video-overview, .static#launch-offer .video-overview .pocketrisk-video-overview {
+  max-width: 60%;
+  margin: 2em auto;
+}
+.static#how-it-works .try-form .two.fields, .static#launch-offer .try-form .two.fields {
+  margin: auto;
+  width: 50rem;
+}
+.static#how-it-works .try-form button, .static#launch-offer .try-form button, .static#how-it-works .try-form input, .static#launch-offer .try-form input {
+  box-sizing: border-box;
+  height: 49px;
+  width: 100%;
+}
+.static#why-advisors-choose .gene .testimonial, .static#launch-offer .gene .testimonial {
+  text-align: left;
+}
+.static#why-advisors-choose .gene .testimonial .testimonial-avatar, .static#launch-offer .gene .testimonial .testimonial-avatar, .static#why-advisors-choose .gene .testimonial .testimonial-body, .static#launch-offer .gene .testimonial .testimonial-body {
+  vertical-align: top;
+}
+.static#why-advisors-choose .gene .testimonial .testimonial-avatar, .static#launch-offer .gene .testimonial .testimonial-avatar {
+  display: inline-block;
+  padding-right: 10px;
+  width: 100px;
+}
+.static#why-advisors-choose .gene .testimonial .testimonial-avatar img, .static#launch-offer .gene .testimonial .testimonial-avatar img {
+  width: 100%;
+}
+.static#why-advisors-choose .gene .testimonial .testimonial-body, .static#launch-offer .gene .testimonial .testimonial-body {
+  display: inline-block;
+  width: calc(100% - 111px);
+}
+.static#why-advisors-choose .gene .testimonial .testimonial-body p, .static#launch-offer .gene .testimonial .testimonial-body p {
+  margin-top: 0px;
+}
+.static#why-advisors-choose .gene .testimonial .testimonial-body p.testimonial-quote, .static#launch-offer .gene .testimonial .testimonial-body p.testimonial-quote {
+  font-size: 1.2em;
+  font-style: italic;
+}
+.static#why-advisors-choose .how-table .ui.celled.table, .static#launch-offer .how-table .ui.celled.table {
+  margin-top: 2em;
+  border-color: #3e7e92;
+  border-width: 2px;
+}
+.static#why-advisors-choose .how-table .ui.celled.table .value, .static#launch-offer .how-table .ui.celled.table .value {
+  color: #00882b;
+  font-weight: bold;
+}
+.static#why-advisors-choose .how-table .ui.celled.table tr th, .static#launch-offer .how-table .ui.celled.table tr th, .static#why-advisors-choose .how-table .ui.celled.table tr td, .static#launch-offer .how-table .ui.celled.table tr td {
+  border-color: #3e7e92;
+  border-width: 2px;
+}
+.static#why-advisors-choose .how-table .ui.celled.table thead tr:first-child th, .static#launch-offer .how-table .ui.celled.table thead tr:first-child th {
+  background: none !important;
+}
+.static#why-advisors-choose .how-table .ui.celled.table tr td:not(:first-child), .static#launch-offer .how-table .ui.celled.table tr td:not(:first-child) {
+  font-size: 14px;
+}
+.static#why-advisors-choose .how-table .ui.celled.table tr:last-child td, .static#launch-offer .how-table .ui.celled.table tr:last-child td {
+  font-weight: bold;
+}
+.static#why-advisors-choose .how-table .ui.celled.table.ui.celled.table tr td:first-child:not(.ignored), .static#launch-offer .how-table .ui.celled.table.ui.celled.table tr td:first-child:not(.ignored) {
+  font-weight: bold;
+}
+.static#connect-model-portfolios .masthead p.pie-chart {
+  margin-top: 70px;
+}
+.static#connect-model-portfolios .steps-one-two-three .reason-number {
+  margin-top: 24px;
+  margin-bottom: -24px;
+}
+.static#connect-model-portfolios .steps-one-two-three h4 {
+  font-size: 1.8em !important;
+  margin-bottom: 0.5rem !important;
+  text-align: left !important;
+}
+.static#methodology .summary {
+  text-align: left;
+}
+.static#methodology .summary .item {
+  color: white;
+}
+.static#methodology img.screen {
+  max-width: 100%;
+}
+.static#methodology p {
+  text-align: justify;
+}

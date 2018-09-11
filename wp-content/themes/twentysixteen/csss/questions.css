@@ -1,0 +1,404 @@
+.report .ui.segment.report-walkthrough-complete {
+  display: none;
+}
+.report .ui.segment.report-walkthrough-header {
+  background-color: #ee7c16;
+  position: fixed;
+  margin-top: 0;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+}
+.report .ui.segment.report-walkthrough-header .walkthrough-header-contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.report .ui.segment.report-walkthrough-header h4 {
+  color: white;
+  font-size: 1.3em;
+  text-align: right;
+  margin-bottom: 0;
+  padding-right: 1em;
+}
+.report .ui.segment.report-walkthrough-header .button {
+  background-color: #3e7e92;
+  box-shadow: 0px 0px 0px 1px #fff inset !important;
+  color: white;
+}
+.report .ui.segment.report-walkthrough-header .button:hover {
+  background-color: #3b788b;
+}
+.report-intro-outro-page {
+  text-align: center;
+}
+.report-intro-outro-page .report-complete {
+  text-align: left;
+}
+.report-intro-outro-page.old-intro-outro {
+  text-align: left;
+}
+.report-intro-outro-page.old-intro-outro p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.report-intro-outro-page .ui.cards {
+  margin-top: 2em;
+}
+.report-intro-outro-page .ui.cards .card {
+  box-shadow: none !important;
+}
+.report-intro-outro-page .ui.cards .card .image {
+  background: none;
+}
+.report-intro-outro-page .ui.cards .card .image img {
+  max-width: 60px;
+  margin: 0.5em auto;
+}
+.report-intro-outro-page .ui.cards .card .content {
+  border-top: none;
+  padding: 1em 0 !important;
+}
+.report-intro-outro-page .ui.cards .card .content .header {
+  font-size: 1.1em;
+}
+.report-intro-outro-page p {
+  font-size: 1.1em;
+  margin: 1em 0;
+}
+.question-page.section-intro-page .segments .segment.header-segment {
+  margin-top: 0px;
+}
+.question-page.section-intro-page .segments .segment.header-segment h4 {
+  font-size: 1.5em;
+}
+.question-page.section-intro-page .segments .segment.question-segment {
+  margin-bottom: 5em;
+}
+.question-page.section-intro-page .segments .segment.question-segment h3, .question-page.section-intro-page .segments .segment.question-segment p {
+  font-size: 1.5em;
+}
+.question-page .segments .segment.header-segment {
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+.question-page .segments .segment.question-segment {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.question-page .segments .segment.footer-segment .notes {
+  color: #777;
+  font-size: 0.8em;
+}
+.question-page__headers__risk-title {
+  text-align: right;
+}
+.question-page .pagination .ui.menu {
+  float: right;
+  margin-top: 1em;
+}
+.question-page .pagination .ui.menu .item {
+  padding: 0.7em 0.9em;
+}
+.question-page .pagination .ui.menu .item.disabled {
+  display: none;
+}
+.question-page .pagination:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.question-page .question-item {
+  position: relative;
+  text-align: left;
+}
+.question-page .question-item .sid.ui.circular.segment {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  margin: -15px 0px 0px -15px;
+}
+.question-page .question-item .sid.ui.circular.segment h2.header {
+  margin: 0px;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.question-page .question-item .header.section-header {
+  display: block;
+  text-transform: none;
+}
+.question-page .question-item h2, .question-page .question-item h3 {
+  display: inline;
+  font-size: 1.2rem;
+}
+.question-page .question-item h3 {
+  color: #444;
+}
+.question-page .question-item h4 {
+  color: #777;
+}
+.question-page .question-item .ui.error.message, .question-page .question-item .question-photo-container {
+  margin: 0 auto 0.5em auto;
+}
+.question-page .question-item .answers-container.ui.cards, .question-page .question-item .ui.image {
+  max-width: 550px;
+}
+.question-page .question-item .part-container.hanson-mcclain-photo-question {
+  max-width: 380px;
+}
+.question-page .question-item .part-container:not(:first-child) {
+  margin-top: 1em;
+}
+.question-page .question-item .part-container.not-sure-answer button {
+  margin-left: 18px;
+}
+.question-page .question-item .part-container h4 {
+  color: #444;
+}
+.question-page .question-item .answers-container .ui.form input {
+  width: 177px;
+}
+.question-page .question-item .answers-container .ui.form textarea {
+  height: 6em;
+  min-height: 6em;
+}
+.question-page .question-item .answers-container .ui.form .remaining-count {
+  color: #777;
+}
+.question-page .question-item .answers-container.ui.cards.two {
+  width: 235px;
+}
+.question-page .question-item .answers-container.ui.cards.two .card {
+  margin: 0 0.5em;
+}
+.question-page .question-item .answers-container.ui.cards.two .card:first-child {
+  margin-left: 0em;
+}
+.question-page .question-item .answers-container.ui.cards.two .card:last-child {
+  margin-right: 0em;
+}
+.question-page .question-item .answers-container.ui.cards.two .card .content {
+  position: relative;
+}
+.question-page .question-item .answers-container.ui.cards.two .card .content i.checkmark.icon {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.question-page .question-item .answers-container table .mobile-header {
+  display: none;
+}
+.question-page .question-item .answers-container table th, .question-page .question-item .answers-container table td {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+.question-page .question-item .answers-container table .card {
+  max-width: 200px;
+}
+.question-page .question-item .answers-container table .card .content {
+  padding: 0.5em;
+}
+.question-page .question-item .answers-container table .card .content .header {
+  font-size: 1em;
+}
+.question-page .question-item .answers-container.slider h4 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.question-page .question-item .answers-container.slider h4.noAnswer {
+  color: #777;
+}
+.question-page .question-item .answers-container.slider .field {
+  margin-top: 2em;
+}
+.question-page .question-item .answers-container.slider .ui.horizontal.list {
+  display: flex;
+  margin-top: 2em;
+}
+.question-page .question-item .answers-container.slider .ui.horizontal.list .item.input-item {
+  width: 200px;
+}
+.question-page .question-item .answers-container.rating {
+  margin-top: 2em;
+}
+.question-page .question-item .answers-container.rating .header {
+  font-weight: normal;
+}
+.question-page .question-item .answers-container.rating .header.agree {
+  color: #5bb75b;
+}
+.question-page .question-item .answers-container.rating .header.disagree {
+  color: #777;
+}
+.question-page .question-item .answers-container.rating i.icon {
+  cursor: pointer;
+}
+.question-page .question-item .answers-container.rating i.icon.radio-0, .question-page .question-item .answers-container.rating i.icon.radio-6 {
+  font-size: 2.2em;
+}
+.question-page .question-item .answers-container.rating i.icon.radio-1, .question-page .question-item .answers-container.rating i.icon.radio-5 {
+  font-size: 2em;
+}
+.question-page .question-item .answers-container.rating i.icon.radio-2, .question-page .question-item .answers-container.rating i.icon.radio-4 {
+  font-size: 1.8em;
+}
+.question-page .question-item .answers-container.rating i.icon.radio-3 {
+  font-size: 1.6em;
+}
+.question-page .question-item .answers-container.rating i.icon.radio-0, .question-page .question-item .answers-container.rating i.icon.radio-1, .question-page .question-item .answers-container.rating i.icon.radio-2 {
+  color: #777;
+}
+.question-page .question-item .answers-container.rating i.icon.radio-4, .question-page .question-item .answers-container.rating i.icon.radio-5, .question-page .question-item .answers-container.rating i.icon.radio-6 {
+  color: #5bb75b;
+}
+.question-page .question-item .answers-container.rating i.icon.radio-3 {
+  color: #dcdcdc;
+}
+.question-page .question-item .answers-container .card {
+  background-color: #fff;
+  cursor: pointer;
+}
+.question-page .question-item .answers-container .card:hover {
+  background-color: #f5f5f5;
+  transform: none;
+  transition: all 0.2s ease-in-out;
+}
+.question-page .question-item .answers-container .card .icon.checkmark {
+  color: #2f5f6e;
+  visibility: hidden;
+}
+.question-page .question-item .answers-container .card.active {
+  background-color: #4791a7;
+}
+.question-page .question-item .answers-container .card.active .icon.checkmark {
+  visibility: visible;
+}
+.question-page .question-item .answers-container.text {
+  max-width: 700px;
+  margin: 0;
+}
+.question-page .question-item .answers-container.percentages .ui.form {
+  text-align: left;
+}
+.question-page .question-item .answers-container.percentages .ui.form .field {
+  position: relative;
+}
+.question-page .question-item .answers-container.percentages .ui.form .field .ui.selection.dropdown {
+  min-width: 100%;
+}
+.question-page .question-item .answers-container.percentages .ui.form .field .ui.selection.dropdown .dropdown.icon {
+  display: none;
+}
+.question-page .question-item .answers-container.percentages .ui.form .field button {
+  background-color: #444;
+  color: white;
+  position: absolute;
+  left: 7px;
+  bottom: 0px;
+  padding: 12px 21px;
+}
+.question-page .question-item .answers-container.date-question label {
+  width: 40px;
+}
+.question-page .question-item .answers-container.multiple-illustration {
+  max-width: 700px !important;
+  margin: 0;
+}
+.question-page .question-item .answers-container.multiple-illustration .icon {
+  position: absolute;
+  top: 10px;
+  left: 7px;
+  font-size: 2em;
+  z-index: 2;
+}
+.question-page .question-item .answers-container.multiple-illustration .card {
+  margin: 0.5rem !important;
+  width: calc(25% - 1rem);
+}
+.question-page .question-item .answers-container.multiple-illustration .card .image img {
+  max-width: 60px;
+  margin: 1em auto !important;
+}
+.question-page .question-item .answers-container.multiple-illustration .card .content .header {
+  font-size: 1em;
+  text-align: center;
+}
+.question-page .question-item .answers-container.multiple-illustration .card .selected-index {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 1.5em;
+  color: #444;
+  visibility: hidden;
+}
+.question-page .question-item .answers-container.multiple-illustration .card.active .selected-index {
+  visibility: visible;
+}
+.question-page .question-item .answers-container.multiple-illustration .ui.form {
+  width: 100%;
+}
+.question-page .question-item .answers-container.multiple-illustration .ui.form .field {
+  padding: 0.5rem;
+}
+.question-page .question-item .answers-container.multiple-illustration .ui.form .field .remaining-count {
+  margin-top: 0.5rem;
+}
+.question-page .question-item .answers-container.ui.cards {
+  margin: 0;
+}
+.question-page .question-item .answers-container.ui.cards .card .content {
+  color: #444;
+  padding: 0.5em 0em;
+  text-align: center;
+}
+.question-page .question-item .answers-container.ui.cards .card .content .header {
+  color: #444;
+  font-size: 1em;
+}
+.question-page .question-item .answers-container.ui.cards .card.fluid {
+  margin: 0.5em 0;
+}
+.question-page .question-item .answers-container.ui.cards .card.fluid .content {
+  text-align: left;
+  padding: 0.5em 1em;
+}
+@media only screen and (max-width: 700px) {
+  .question-page__headers .ui.stackable.grid .question-page__headers__risk-title {
+    padding-top: 0px !important;
+    text-align: left;
+  }
+  .question-page .question-item .answers-container table thead {
+    display: none;
+  }
+  .question-page .question-item .answers-container table .mobile-header {
+    display: inline;
+    font-weight: bold;
+  }
+  .question-page .question-item .answers-container table .card {
+    margin: 0 auto;
+  }
+  .question-page .question-item .answers-container.percentages .ui.form {
+    text-align: left;
+  }
+  .question-page .question-item .answers-container.percentages .ui.form .field button {
+    margin-top: 1em;
+    position: static;
+  }
+  .question-page .question-item .answers-container.ui.cards {
+    margin: -1.5em 0 0 0;
+  }
+  .question-page .pagination .ui.menu .item.disabled {
+    display: block;
+  }
+  .question-page .pagination .ui.menu .item:not(.important) {
+    display: none;
+  }
+}

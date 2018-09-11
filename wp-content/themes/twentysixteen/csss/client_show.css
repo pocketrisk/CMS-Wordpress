@@ -1,0 +1,57 @@
+body.client .pusher {
+  background-color: #f5f5f5;
+}
+body.client .header {
+  color: #3e7e92;
+  position: relative;
+  text-align: left;
+}
+body.client .ui.small.modal {
+  max-width: 560px !important;
+}
+body.client .ui.small.modal form .field .error {
+  display: block;
+  margin: 1em 0;
+}
+body.client .raised.segment {
+  background-color: white;
+  padding: 1em;
+  margin: 5em 0;
+}
+body.client .additional-client-info {
+  list-style: none;
+}
+body.client .additional-client-info label {
+  color: #3e7e92;
+}
+body.client #email-client-modal form .control-group.hidden {
+  display: none;
+}
+body.client #email-client-modal form textarea {
+  height: 300px;
+  width: 520px;
+}
+body.client #email-client-modal .display-report-wrapper {
+  margin-top: 1em;
+  text-align: right;
+}
+body.client #email-client-modal .display-report-wrapper .radio:not(:last-child) {
+  margin-right: 1em;
+}
+body.client #email-client-modal .display-report-wrapper .radio label {
+  padding-left: 1.3em;
+}
+body.client #email-client-modal .modal-extra {
+  margin-top: 13px;
+  text-align: left;
+}
+body.client #email-client-modal .modal-extra p.instructions {
+  font-weight: bold;
+}
+body.client #email-client-modal .modal-extra input#questionnaire-link {
+  background-color: white;
+  border: 1px solid #aaa;
+  display: block;
+  width: 520px;
+  padding: 3px 5px;
+}

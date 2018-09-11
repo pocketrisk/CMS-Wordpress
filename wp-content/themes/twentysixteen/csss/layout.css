@@ -1,0 +1,104 @@
+footer .compliance {
+  color: #bbb;
+  font-size: 0.7em;
+  margin-top: 5em;
+}
+html {
+  height: 100%;
+}
+@media only screen {
+  body .pusher {
+    overflow: auto !important;
+    height: 100%;
+  }
+  body .ui.wrapper {
+    flex: 1 0 auto;
+  }
+}
+body {
+  min-height: 100vh;
+  overflow:hidden;
+}
+body .ui.vertical.menu .dropdown.item:not(.upward) .menu {
+  left: 0px;
+  top: 40px;
+}
+body .pusher {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body .pusher header.ui.menu {
+  min-height: 54px;
+}
+body footer {
+  margin-top: auto;
+}
+body.text-box, body.report {
+  background-color: #f5f5f5;
+  font-size: 16px;
+}
+body.text-box > .pusher, body.report > .pusher {
+  background-color: #f5f5f5;
+  padding-bottom: 0;
+}
+body.text-box .ui.borderless.menu .header.item, body.report .ui.borderless.menu .header.item {
+  padding-left: 0px;
+}
+body.text-box .ui.container.flash, body.report .ui.container.flash {
+  margin-bottom: 1em;
+}
+body.text-box .ui.container, body.report .ui.container {
+  max-width: 940px !important;
+}
+.ui.flash.container {
+  margin-bottom: -2em;
+}
+.pull-right {
+  float: right;
+}
+.content-hidden {
+  display: none;
+}
+.content-invisible {
+  visibility: hidden;
+}
+.brand-text {
+  color: #3e7e92;
+}
+header.ui.menu:not(.borderless) {
+  background-color: #3e7e92;
+}
+header.ui.menu:not(.borderless) .item {
+  color: white !important;
+}
+header.ui.menu:not(.borderless) .item:hover {
+  color: #e6e6e6;
+}
+header.ui.menu:not(.borderless) .dropdown.item:hover {
+  color: #e6e6e6 !important;
+}
+header.ui.menu:not(.borderless) .item:before {
+  display: none;
+}
+header.ui.menu .header.item.logo {
+  border-left: 0 !important;
+  padding-left: 0;
+}
+header.ui.menu .header.item.logo::before {
+  background: none;
+  width: 0px;
+}
+@media only screen and (max-width: 700px) {
+  body.text-box .ui.segment {
+    margin: 0;
+  }
+  footer .ui.horizontal.list .item {
+    border: none;
+    display: block;
+    margin-left: 0em !important;
+    padding-left: 0em !important;
+    text-align: left;
+  }
+}

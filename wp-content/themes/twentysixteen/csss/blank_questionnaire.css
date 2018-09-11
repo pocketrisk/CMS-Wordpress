@@ -1,0 +1,71 @@
+.blank-questionnaire {
+  font-size: 1.2em !important;
+}
+.blank-questionnaire .blank-questionnaire-intro {
+  border-top: 10px solid #3e7e92 !important;
+}
+.blank-questionnaire .blank-questionnaire-intro h1 {
+  margin: 20px 0 20px !important;
+  text-align: center;
+}
+.blank-questionnaire .blank-questionnaire-intro .main-title {
+  text-align: center;
+}
+.blank-questionnaire .blank-questionnaire-intro .main-title img {
+  margin: 20px 0;
+  max-width: 300px;
+  max-height: 100px;
+}
+.blank-questionnaire .blank-questionnaire-intro .ui.cards {
+  margin-top: 2em;
+}
+.blank-questionnaire .blank-questionnaire-intro .ui.cards .card {
+  box-shadow: none !important;
+}
+.blank-questionnaire .blank-questionnaire-intro .ui.cards .card .image {
+  background: none;
+}
+.blank-questionnaire .blank-questionnaire-intro .ui.cards .card .image img {
+  max-width: 60px;
+  margin: 0.5em auto;
+}
+.blank-questionnaire .blank-questionnaire-intro .ui.cards .card .content {
+  border-top: none;
+  padding: 1em 0 !important;
+}
+.blank-questionnaire .blank-questionnaire-intro .ui.cards .card .content .header {
+  font-size: 1.1em;
+  text-align: center;
+}
+.blank-questionnaire .blank-questionnaire-intro p {
+  font-size: 1.1em;
+  margin: 1em 0;
+}
+.blank-questionnaire .ui.header.client-name {
+  color: black;
+  margin-top: 1em;
+}
+.blank-questionnaire .question-block {
+  margin: 2em 0em;
+}
+.blank-questionnaire p.question-title {
+  font-weight: bold;
+}
+.blank-questionnaire p.question-title .hide-blank {
+  display: none;
+}
+.blank-questionnaire p.question-sub-title {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.blank-questionnaire .answers {
+  margin-bottom: 1em;
+}
+.blank-questionnaire .part-type-multiple-illustration .card .image img {
+  max-width: 60px;
+  margin: 1em auto !important;
+}
+.blank-questionnaire .part-type-multiple-illustration .card .content .header {
+  font-size: 1em;
+  text-align: center;
+}

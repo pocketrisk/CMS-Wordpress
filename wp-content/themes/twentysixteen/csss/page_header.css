@@ -1,0 +1,23 @@
+body header.ui.menu {
+  margin: 0rem 0rem 1rem 0rem;
+}
+body header.ui.menu .ui.container .header img.logo {
+  height: auto;
+  max-height: 35px;
+  max-width: 250px;
+  width: auto;
+}
+body header.ui.menu .ui.container .right.menu .toc.item {
+  display: none;
+}
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+@media only screen and (max-width: 900px) {
+  .ui.menu .right.menu .item:not(.toc) {
+    display: none !important;
+  }
+  .ui.menu .right.menu .item.toc {
+    display: block !important;
+  }
+}

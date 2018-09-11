@@ -1,0 +1,157 @@
+body.account .pusher {
+  background-color: #f5f5f5;
+}
+body.account .raised.segment {
+  background-color: white;
+  padding: 1em;
+  margin: 5em 0;
+}
+body.account .raised.segment .ui.secondary.menu {
+  display: block;
+}
+body.account .raised.segment .ui.secondary.menu .item {
+  display: inline-block;
+}
+body.account form.new_user input.string {
+  width: 300px !important;
+}
+body.account#account-disclosures .ui.grid .column img {
+  max-width: 100%;
+}
+body.account#account-disclosures .ui.grid .column h4 {
+  font-size: 13px;
+  margin: 0em 0em 0.28571rem 0em;
+}
+body.account#account-model-portfolios p {
+  margin: 30px 0;
+}
+body.account#account-model-portfolios .no-portfolios {
+  display: none;
+}
+body.account#account-model-portfolios .video-container {
+  max-width: 60%;
+  margin: 2em auto;
+}
+body.account#account-model-portfolios .hide-description {
+  display: none;
+}
+body.account#account-model-portfolios #visible-word-count {
+  margin-top: -8px;
+  color: grey;
+}
+body.account#account-model-portfolios .js-description {
+  display: none;
+}
+body.account#account-model-portfolios .hide-description {
+  display: none;
+}
+body.account#account-model-portfolios .image-wrapper .note-info {
+  color: #3e7e92;
+  margin-left: 10px;
+}
+body.account#account-model-portfolios .image-wrapper .note-info .note-holder {
+  text-align: justify;
+}
+body.account#account-model-portfolios .image-wrapper .button-row {
+  margin-bottom: 15px;
+}
+body.account#account-model-portfolios .thumbnail-wrapper {
+  padding-bottom: 10px;
+}
+body.account#account-model-portfolios .thumbnail-wrapper img {
+  border: 1px solid #eee;
+  padding: 5px;
+  margin-right: 10px;
+}
+body.account#account-model-portfolios .thumbnail-wrapper a {
+  color: #da4e49;
+}
+body.account#account-model-portfolios .thumbnail-wrapper a:hover {
+  text-decoration: none;
+}
+body.account#account-model-portfolios #visible-description {
+  width: 100%;
+}
+body.account#account-embedded .ui.form .field .ui.toggle.checkbox .private-access-code-input {
+  display: none;
+}
+body.account#account-embedded .ui.form .field .ui.toggle.checkbox.checked .private-access-code-input {
+  display: block;
+  width: auto;
+}
+body.account#account-embedded .ui.form .button.submit {
+  margin-top: 2em;
+}
+body.account#account-embedded #embed-code-modal .content textarea {
+  height: 150px;
+  width: 100%;
+}
+body.account#account-embedded .additional-question-and-options-wrapper {
+  margin-bottom: 2em;
+}
+body.account#account-embedded .additional-question-and-options-wrapper .additional-question-option {
+  margin-top: 0.5em;
+}
+body.account#upgrade-cancel hr {
+  display: none;
+}
+body.account#upgrade-cancel .ui.segment.masthead {
+  margin-top: -3em;
+  margin-bottom: 1em;
+}
+body.account#upgrade-cancel .ui.segment.our-story {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+body.account#upgrade-cancel #upgrade-info {
+  margin-top: 1em;
+}
+body.account#account-mass-clients .clients-container .account-nav {
+  margin-bottom: 0em;
+}
+body.account#account-mass-clients .clients-container hr {
+  display: none;
+}
+body.account#account-mass-clients .modal .display-report-wrapper {
+  margin-top: 1em;
+  text-align: right;
+}
+body.account#account-mass-clients .modal .display-report-wrapper .radio:not(:last-child) {
+  margin-right: 1em;
+}
+body.account#account-mass-clients .modal .display-report-wrapper .radio label {
+  padding-left: 1.3em;
+}
+body.account#account-details form {
+  margin-top: 2em;
+}
+body.account#account-details form .button {
+  margin-left: 160px;
+}
+body.account#account-details form .field input.string, body.account#account-details form .field input.password {
+  min-width: 350px;
+}
+body.account#account-details form .field .remove-file, body.account#account-details form .field .hint {
+  padding-left: 164px;
+}
+body.account#account-details form .field .remove-file label, body.account#account-details form .field .hint label {
+  font-weight: bold;
+}
+body.account#account-details form .field .hint {
+  margin-top: 1em;
+  max-width: 500px;
+}
+body.account#account-details form .field.color-picker label, body.account#account-details form .field.color-picker p {
+  vertical-align: top;
+}
+body.account#account-details form .field.color-picker p {
+  font-weight: normal;
+  max-width: 336px;
+}
+body.account#account-details form .field.color-picker p .white-warning {
+  font-weight: bold;
+  text-decoration: underline;
+}
+body.account#account-details form .field.color-picker .color-map-container, body.account#account-details form .field.color-picker .enter-color-manually {
+  padding-left: 164px;
+}

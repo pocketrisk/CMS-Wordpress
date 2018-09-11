@@ -1,0 +1,51 @@
+//= require_tree ./embed
+
+(function(window, document, version, callback) {
+    var j, d;
+    var loaded = false;
+    if (!(j = window.jQuery) || version > j.fn.jquery || callback(j, loaded)) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js";
+        script.onload = script.onreadystatechange = function() {
+            if (!loaded && (!(d = this.readyState) || d == "loaded" || d == "complete")) {
+                callback((j = window.jQuery).noConflict(1), loaded = true);
+                j(script).remove();
+            }
+        };
+        (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script);
+    }
+})(window, document, "1.8", function($, jquery_loaded) {
+  // once jQuery is loaded, load jquery_modal into it
+  window.loadModal($);
+  <% base = case Rails.env
+   when 'development'
+    'localhost:3100'
+   when 'staging'
+    'stage.pocketrisk.com'
+   when 'production'
+    'www.pocketrisk.com'
+   end
+   %>
+  $('head').append('<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />');
+  $('body').append('<link rel="stylesheet" href="//<%= base %>/assets/embed.css" type="text/css" />');
+
+  $('.pocketrisk-embed-link, [data-pocketrisk-embed=link]').click(function(e) {
+    if ($(e.currentTarget).data('pocketrisk-no-modal')) {
+      return true;
+    }
+    e.preventDefault();
+    if ($('#pocketrisk-modal').length == 0) {
+      var container = $('<div id="pocketrisk-modal"></div>').addClass('pr-modal');
+      container.append($('<a class="close-modal">x</a>'));
+      var wrapper = $('<div class="iframe-wrapper"></div>').css( 'height', $( window ).height() - 80 );
+      container.append(wrapper);
+      var iframe = $('<iframe></iframe>').attr('src', $(e.currentTarget).attr('href') + '&layout=iframe').attr('frameborder', '0');
+      wrapper.append(iframe);
+      $('body').append(container);
+    }
+    $('#pocketrisk-modal').modal({ modalClass: 'pr-modal' }).css('z-index', '20000000');
+  });
+
+  $('body').addClass('pocketrisk-js-loaded');
+});
