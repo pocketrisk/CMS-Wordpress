@@ -2,14 +2,14 @@
 <footer class="ui inverted vertical footer segment">
 <div class="ui center aligned container">
 <div class="ui horizontal inverted small divided link list">
-<a class="item" href="/about">About</a>
+<a class="item" href="<?php echo  get_home_url();?>/about">About</a>
 <a class="item" href="http://blog.pocketrisk.com">Blog</a>
 <a class="item" href="http://support.pocketrisk.com">Support</a>
-<a class="item" href="/contact_us">Contact Us</a>
-<a class="item" href="/privacy">Privacy</a>
-<a class="item" href="/tos">Terms</a>
-<a class="item" href="/website_disclosures">Website Disclosures</a>
-<a class="item" href="/sitemap">Sitemap</a>
+<a class="item" href="<?php echo  get_home_url();?>/contact_us">Contact Us</a>
+<a class="item" href="<?php echo  get_home_url();?>/privacy">Privacy</a>
+<a class="item" href="<?php echo  get_home_url();?>/tos">Terms</a>
+<a class="item" href="<?php echo  get_home_url();?>/website_disclosures">Website Disclosures</a>
+<a class="item" href="<?php echo  get_home_url();?>/sitemap">Sitemap</a>
 </div>
 <div class="item">© Pocket Risk</div>
 </div>

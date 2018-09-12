@@ -106,20 +106,18 @@ src="https://www.facebook.com/tr?id=1505169306455292&amp;ev=PageView&amp;noscrip
             fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
-<div class="ui vertical sidebar right menu">
-<div class="ui dropdown item" tabindex="0">
-How It Works <i class="dropdown icon"></i>
-<div class="menu transition hidden" tabindex="-1">
-<a class="item" href="C:/Users/Haisam/Desktop/awais/how_it_works.html">Product overview</a>
-<a class="item" href="C:/Users/Haisam/Desktop/awais/connect_your_model_protfolio.html">Connect your model portfolios</a>
-<a class="item" href="C:/Users/Haisam/Desktop/awais/methodology.html">Methodology</a>
-<a class="item" href="C:/Users/Haisam/Desktop/awais/complience.html">Compliance</a>
-<a class="item" href="C:/Users/Haisam/Desktop/awais/why_advisors_choose_pocket_risk.html">Why advisors choose Pocket Risk</a>
-</div>
-</div>
-<a class="item" href="/pricing">Pricing and Free Trial</a>
-
-</div>
+  <div class="ui vertical sidebar right menu">
+  <div class="ui dropdown item" tabindex="0">
+  How It Works <i class="dropdown icon"></i>
+  <a class="item" href="<?php echo  get_home_url();?>/how-it-works">Product overview</a>
+  <a class="item" href="<?php echo  get_home_url();?>/connect-your-model-portfolios">Connect your model portfolios</a>
+  <a class="item" href="<?php echo  get_home_url();?>/methodology">Methodology</a>
+  <a class="item" href="<?php echo  get_home_url();?>/compliance">Compliance</a>
+  <a class="item" href="<?php echo  get_home_url();?>/why-advisors-choose-pocket-risk">Why advisors choose Pocket Risk</a>
+  </div>
+  </div>
+  <a class="item" href="/pricing">Pricing and Free Trial</a>
+  </div>
 <script>
       $(document).ready(function() {
         $('.toc.item').click(function() {
@@ -138,14 +136,14 @@ How It Works <i class="dropdown icon"></i>
 <div class="ui dropdown item" tabindex="0">
 How It Works <i class="dropdown icon"></i>
 <div class="menu transition hidden" tabindex="-1">
-<a class="item" href="C:/Users/Haisam/Desktop/awais/how_it_works.html">Product overview</a>
-<a class="item" href="C:/Users/Haisam/Desktop/awais/connect_your_model_protfolio.html">Connect your model portfolios</a>
-<a class="item" href="C:/Users/Haisam/Desktop/awais/methodology.html">Methodology</a>
-<a class="item" href="C:/Users/Haisam/Desktop/awais/complience.html">Compliance</a>
-<a class="item" href="C:/Users/Haisam/Desktop/awais/why_advisors_choose_pocket_risk.html">Why advisors choose Pocket Risk</a>
+<a class="item" href="<?php echo  get_home_url();?>/how-it-works">Product overview</a>
+<a class="item" href="<?php echo  get_home_url();?>/connect-your-model-portfolios">Connect your model portfolios</a>
+<a class="item" href="<?php echo  get_home_url();?>/methodology">Methodology</a>
+<a class="item" href="<?php echo  get_home_url();?>/compliance">Compliance</a>
+<a class="item" href="<?php echo  get_home_url();?>/why-advisors-choose-pocket-risk">Why advisors choose Pocket Risk</a>
 </div>
 </div>
-<a class="item" href="/pricing">Pricing and Free Trial</a>
+<a class="item" href="<?php echo  get_home_url();?>/pricing">Pricing and Free Trial</a>
 <a class="toc item">
 <i class="sidebar icon"></i>
 </a>

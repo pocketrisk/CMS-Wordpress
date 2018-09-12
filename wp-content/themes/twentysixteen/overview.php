@@ -41,21 +41,27 @@
 <body id="how-it-works" class="static ">
 <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/FdM1l_dpErI.js?version=42#channel=f257aa322eef53c&amp;origin=https%3A%2F%2Fwww.pocketrisk.com" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
 
-<div class="ui vertical sidebar right menu">
-<div class="ui dropdown item" tabindex="0">
-How It Works <i class="dropdown icon"></i>
-<div class="menu transition hidden" tabindex="-1">
-<a class="item" href="/how_it_works">Product overview</a>
-<a class="item" href="/connecting_model_portfolios">Connect your model portfolios</a>
-<a class="item" href="/methodology">Methodology</a>
-<a class="item" href="/compliance">Compliance</a>
-<a class="item" href="/why_advisors_choose_pocket_risk">Why advisors choose Pocket Risk</a>
-</div>
-</div>
-<a class="item" href="/pricing">Pricing and Free Trial</a>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=248746058583074&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <div class="ui vertical sidebar right menu">
+  <div class="ui dropdown item" tabindex="0">
+  How It Works <i class="dropdown icon"></i>
+  <a class="item" href="<?php echo  get_home_url();?>/how-it-works">Product overview</a>
+  <a class="item" href="<?php echo  get_home_url();?>/connect-your-model-portfolios">Connect your model portfolios</a>
+  <a class="item" href="<?php echo  get_home_url();?>/methodology">Methodology</a>
+  <a class="item" href="<?php echo  get_home_url();?>/compliance">Compliance</a>
+  <a class="item" href="<?php echo  get_home_url();?>/why-advisors-choose-pocket-risk">Why advisors choose Pocket Risk</a>
+  </div>
+  </div>
+  <a class="item" href="/pricing">Pricing and Free Trial</a>
+  </div>
 
-</div>
-		
 		<script>
       $(document).ready(function() {
         $('.toc.item').click(function() {
@@ -68,26 +74,25 @@ How It Works <i class="dropdown icon"></i>
     </script>
 <div class="pusher">
 <header class="ui  menu">
-<div class="ui container">
-<a class="header item logo" href="/"><img height="38px" class="logo" src="/pocketrisk/wp-content/uploads/2018/04/new_logo.png" alt="Logo inverted"></a>
-<div class="right menu">
-<div class="ui dropdown item" tabindex="0">
-How It Works <i class="dropdown icon"></i>
-<div class="menu transition hidden" tabindex="-1">
-<a class="item" href="/how_it_works">Product overview</a>
-<a class="item" href="/connecting_model_portfolios">Connect your model portfolios</a>
-<a class="item" href="/methodology">Methodology</a>
-<a class="item" href="/compliance">Compliance</a>
-<a class="item" href="/why_advisors_choose_pocket_risk">Why advisors choose Pocket Risk</a>
-</div>
-</div>
-<a class="item" href="/pricing">Pricing and Free Trial</a>
-<!--<a class="item" href="/login">Log In</a>-->
-<a class="toc item">
-<i class="sidebar icon"></i>
-</a>
-</div>
-</div>
+	<div class="ui container">
+	<a class="header item logo" href="<?php echo get_home_url();?>"><img height="38px" class="logo" src="<?php echo $uploads['url']; ?>/new_logo.png" alt="Logo inverted"></a>
+	<div class="right menu">
+	<div class="ui dropdown item" tabindex="0">
+	How It Works <i class="dropdown icon"></i>
+	<div class="menu transition hidden" tabindex="-1">
+	<a class="item" href="<?php echo  get_home_url();?>/how-it-works">Product overview</a>
+	<a class="item" href="<?php echo  get_home_url();?>/connect-your-model-portfolios">Connect your model portfolios</a>
+	<a class="item" href="<?php echo  get_home_url();?>/methodology">Methodology</a>
+	<a class="item" href="<?php echo  get_home_url();?>/compliance">Compliance</a>
+	<a class="item" href="<?php echo  get_home_url();?>/why-advisors-choose-pocket-risk">Why advisors choose Pocket Risk</a>
+	</div>
+	</div>
+	<a class="item" href="<?php echo  get_home_url();?>/pricing">Pricing and Free Trial</a>
+	<a class="toc item">
+	<i class="sidebar icon"></i>
+	</a>
+	</div>
+	</div>
 </header>
 <div class="ui wrapper">
 <div class="content">
@@ -309,7 +314,7 @@ risk to an investment portfolio.
 </div>
 </footer>
 </div>
-		
+
 
 
 <iframe name="stripeXDM_default81750_provider" id="stripeXDM_default81750_provider" aria-hidden="true" src="https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fwww.pocketrisk.com&amp;stripe_xdm_c=default81750&amp;stripe_xdm_p=1#__stripe_transport__" frameborder="0" style="position: absolute; top: -2000px; left: 0px;"></iframe><style id="wistia_19_style" type="text/css" class="wistia_injected_style">

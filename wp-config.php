@@ -26,7 +26,7 @@ define('DB_NAME', 'pocketrisk');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'oneclout');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
