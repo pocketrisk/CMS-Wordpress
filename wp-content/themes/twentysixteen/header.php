@@ -140,6 +140,7 @@ How It Works <i class="dropdown icon"></i>
 </div>
 </div>
 <a class="item" href="<?php echo  get_home_url();?>/pricing">Pricing and Free Trial</a>
+<a class="item" href="<?php echo  get_home_url();?>/pricing">Log In</a>
 <a class="toc item">
 <i class="sidebar icon"></i>
 </a>

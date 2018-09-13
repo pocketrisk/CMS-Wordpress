@@ -28,6 +28,8 @@ body .pusher {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  position: relative;
+  bottom: 1px !important;
 }
 body .pusher header.ui.menu {
   min-height: 54px;

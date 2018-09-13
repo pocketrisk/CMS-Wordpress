@@ -32,6 +32,7 @@
   min-height: 100px;
 }
 .static .ui.segment.masthead {
+  background-image: url("../img/background.png") !important;
   background-color: #468da4;
   background-repeat: no-repeat;
   background-position: center;
@@ -98,6 +99,7 @@
 .static .ui.segment h4 {
   text-align: center;
   font-size: 1.5em;
+  font-weight: 200;
 }
 .static#about .masthead {
   background-image: asset-url('about-background_05.png');
